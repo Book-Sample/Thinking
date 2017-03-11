@@ -15,10 +15,12 @@ public class Garbage {
 		System.out.println("After all chair have been created: " + "total created=" + Chair.created
 				+ ", total finalized=" + Chair.finalized);
 		if (args[0].equals("before")) {
+			
 			System.out.println("gc():");
 			System.gc();
 			System.out.println("runFinalization():");
 			System.runFinalization();
+			
 		}
 		System.out.println("bye!");
 		if(args[0].equals("after")){

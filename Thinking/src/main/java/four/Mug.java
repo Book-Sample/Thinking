@@ -1,6 +1,6 @@
 package four;
 
-public class Mug {
+class Mug {
 	Mug(int marker) {
 		System.out.println("Mug(" + marker + ")");
 	}
